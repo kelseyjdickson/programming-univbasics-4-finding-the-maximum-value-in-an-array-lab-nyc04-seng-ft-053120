@@ -1,10 +1,10 @@
 def find_max_value(array)
   # Add your solution here
   counter = 0
-  max = array.sort
+  max = 0;
   while counter < array.length do
+    array[counter] < array[counter +1]
     array.push(max)
-    counter += 1
   end
-
+counter += 1
 end
